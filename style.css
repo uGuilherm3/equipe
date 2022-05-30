@@ -91,3 +91,22 @@ main img:hover{
 #pessoa6{
     border-radius: 98% 140% 90% 162%;
 }
+.back{
+    position: relative;
+    border-radius: 73% 58% 68% 68%;
+    width: 10.5em;
+    height: 10.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    animation: rodar 2s infinite;
+}
+@keyframes rodar {
+    0%{
+        background-color: rgb(255, 160, 226);
+    }
+    50%{
+        background-color: rgb(255, 222, 151);
+    }
+}
